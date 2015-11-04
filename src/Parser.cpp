@@ -1,11 +1,13 @@
 #include <iostream>
 
 #include "Parser.h"
+#include "Tanuki.h"
 
 using namespace std;
 
 void usage() {
-  printf("usage: tanuki <input file>\n");
+  cout << Tanuki;
+  cout << "usage: tanuki <input file>\n";
 }
 
 Parser::Parser(string filename) {
